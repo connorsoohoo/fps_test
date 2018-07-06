@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+set (CMAKE_CXX_STANDARD 11)
+project( fps_test )
+find_package( OpenCV REQUIRED )
+add_executable( fps_test fps_test_gstreamer.cpp )
+target_link_libraries( fps_test ${OpenCV_LIBS} )

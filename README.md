@@ -1,7 +1,8 @@
 # fps_test
 C++ script to view CSI Camera Video at Specified FPS from Nvidia Jetson Tx2
 
-Build using CMake 
+From https://gist.github.com/peter-moran/742998d893cd013edf6d0c86cc86ff7f
+Changed to build with CMake and added fixed time boundary. 
 
 ```
 git clone https://github.com/connorsoohoo/fps_test.git

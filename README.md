@@ -2,6 +2,7 @@
 C++ script to view CSI Camera Video at Specified FPS from Nvidia Jetson Tx2
 
 From https://gist.github.com/peter-moran/742998d893cd013edf6d0c86cc86ff7f
+
 Changed to build with CMake and added fixed time boundary. 
 
 ```
